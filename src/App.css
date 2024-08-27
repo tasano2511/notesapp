@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.App-div {
+  display: grid;
+  place-items: center; /* Center both horizontally and vertically */
+  height: 100vh;       /* Full viewport height */
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

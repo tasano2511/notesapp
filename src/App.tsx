@@ -19,15 +19,29 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="App-div">
+        <h1>LifeTime Open Tennis Championship - Charlotte</h1>
+          <h5>Monthly event</h5>
+
+          <h3>"Join and Play your match!"</h3>
+          <h3>"Sign up for 2021 Sept Open tournament"</h3>
+          <div className="App-div">
             <SimpleImageSlider
                 width={400}
-                height={600}
+                height={400}
                 images={images}
                 showBullets={true}
                 showNavs={true}
             />
-        </div>
+          </div>
+          {/* <a href="https://main.d2miqub6epdkwd.amplifyapp.com" className="button button2" role="button">Sign Up</a>
+           */}
+          {/* Members component */}
+          {/* <Members />
+          
+          <Rules /> */}
+
+          {/* Players component */}
+          {/* <Players /> */}
         <img src={reactLogo} className="logo react" alt="React logo" />
         <h1>Hello from Amplify</h1>
         
