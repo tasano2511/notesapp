@@ -31,6 +31,8 @@ function App() {
                 images={images}
                 showBullets={true}
                 showNavs={true}
+                autoPlay={true}          // Enable auto play
+                autoPlayDelay={3.0}      // Set delay time in seconds
             />
           </div>
           {/* <a href="https://main.d2miqub6epdkwd.amplifyapp.com" className="button button2" role="button">Sign Up</a>
