@@ -1,7 +1,29 @@
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import logotenniscourt from './image/tenniscourt.jpg';
+import logotenniscourt2 from './image/tenniscourt2.jpg';
+import logotenniscourt3 from './image/tenniscourt3.jpg';
+
+//image slider
+const [show, setShow] = useState(true)
+const images = [
+  { url: logotenniscourt },
+  { url: logotenniscourt2 },
+  { url: logotenniscourt3 }
+];
 
 function App() {
+
+  <div className="App-div">
+            <SimpleImageSlider
+                width={400}
+                height={200}
+                images={images}
+                showBullets={true}
+                showNavs={true}
+            />
+        </div>
+
   return (
     <div className="App">
       <header className="App-header">
