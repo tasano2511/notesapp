@@ -23,7 +23,7 @@ function App() {
           <h5>Monthly event</h5>
 
           <h3>"Join and Play your match!"</h3>
-          <h3>"Sign up for 2021 Sept Open tournament"</h3>
+          <h3>"Sign up for 2024 Sept Open tournament"</h3>
           <div className="App-div">
             <SimpleImageSlider
                 width={400}
@@ -45,7 +45,7 @@ function App() {
           {/* Players component */}
           {/* <Players /> */}
         <img src={reactLogo} className="logo react" alt="React logo" />
-        <h1>Hello from Amplify</h1>
+        <h1>Hello from Amplify H1</h1>
         
       </header>
     </div>
