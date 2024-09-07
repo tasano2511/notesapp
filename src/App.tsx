@@ -45,7 +45,7 @@ function App() {
           {/* Players component */}
           {/* <Players /> */}
         <img src={reactLogo} className="logo react" alt="React logo" />
-        <h1>Hello from Amplify H4</h1>
+        <h1>Hello from Amplify - 9/6/2024 9:05PM</h1>
         
       </header>
     </div>
